@@ -33,7 +33,7 @@ export const AccessoriesPage = () => {
                                     {product.title}
                                 </h3>
                                 <p className="text-gray-500 font-bold">$ {product.price}</p>
-                                <button className='text-green-500 w-full py-4 px-3 border border-solid border-green-500'>
+                                <button className='text-green-500 w-full py-4 px-3 border border-solid border-green-500 rounded hover:bg-green-500 hover:text-white'>
                                     Add to cart
                                 </button>
                             </div>
